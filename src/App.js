@@ -1,9 +1,10 @@
 import './App.css';
-
+import {Portfolio,Blogs} from './pages/';
 function App() {
   return (
-    <div className="App">
-    </div>
+      <div className='webapp'>
+        <Portfolio/>
+      </div>
   );
 }
 
